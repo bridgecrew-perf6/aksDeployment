@@ -38,6 +38,7 @@ jobs:
         creds: '${{ secrets.AZURE_CREDENTIALS }}'
         cluster-name: ${{ env.CLUSTER_NAME }}
         resource-group: ${{ env.CLUSTER_RESOURCE_GROUP }}
+        enable-AzPSSession: true
     
     # Create namespace if doesn't exist
     - run: |
