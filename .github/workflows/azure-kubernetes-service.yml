@@ -35,12 +35,12 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_CONTAINER_REGISTRY: "your-azure-container-registry"
-  CONTAINER_NAME: "your-container-name"
-  RESOURCE_GROUP: "your-resource-group"
-  CLUSTER_NAME: "your-cluster-name"
-  IMAGE_PULL_SECRET_NAME: "your-image-pull-secret-name"
-  DEPLOYMENT_MANIFEST_PATH: 'your-deployment-manifest-path'
+  AZURE_CONTAINER_REGISTRY: "testpravin.azurecr.io"
+  CONTAINER_NAME: "aksdemo/react-nodejs"
+  RESOURCE_GROUP: "arm_template_testing"
+  CLUSTER_NAME: "testapp"
+  IMAGE_PULL_SECRET_NAME: "testappsecret"
+  DEPLOYMENT_MANIFEST_PATH: 'manifest.yml'
 
 jobs:
   build:
