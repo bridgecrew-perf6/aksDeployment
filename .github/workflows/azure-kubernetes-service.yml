@@ -1,5 +1,9 @@
 on: [push]
 
+permissions:
+      id-token: write
+      contents: read
+
 # Environment variables available to all jobs and steps in this workflow
 env:
   REGISTRY_NAME: testpravin
