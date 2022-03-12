@@ -18,7 +18,7 @@ spec:
         app: react-webapp
     spec:
       containers:
-      - image: regfrontend.azurecr.io/aksdemo/react-nodejs:v1
+      - image: testpravin.azurecr.io/testapp:latest
         name: webapp
         imagePullPolicy: Always
         resources: {}
