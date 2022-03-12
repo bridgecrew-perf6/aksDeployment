@@ -2,7 +2,7 @@ on: [push]
 
 # Environment variables available to all jobs and steps in this workflow
 env:
-  REGISTRY_NAME: testpravin.azurecr.io
+  REGISTRY_NAME: testpravin
   CLUSTER_NAME: testapp
   CLUSTER_RESOURCE_GROUP: arm_template_testing
   NAMESPACE: default
