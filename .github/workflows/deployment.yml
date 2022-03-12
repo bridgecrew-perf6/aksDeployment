@@ -36,7 +36,7 @@ on:
 
 env:
   AZURE_CONTAINER_REGISTRY: "testpravin"
-  CONTAINER_NAME: "aksdemo/react-nodejs"
+  CONTAINER_NAME: "testapp"
   RESOURCE_GROUP: "arm_template_testing"
   CLUSTER_NAME: "testapp"
   IMAGE_PULL_SECRET_NAME: "testappsecret"
@@ -52,7 +52,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     # Checks out the repository this file is in
-    - uses: actions/checkout@master
+    - uses: actions/checkout@main
     
     # Logs in with your Azure credentials
     - name: Azure login
